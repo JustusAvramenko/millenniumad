@@ -6,7 +6,8 @@
       <mesh>structural/caro_sentry_tower.dae</mesh>
         <textures>
        <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
         <texture file="structural/ao/caro_sentry_tower.png" name="aoTex"/>
       </textures>
       <props>
@@ -14,7 +15,6 @@
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
       </props>
-    
     </variant>
   </group>
   <group>
@@ -36,5 +36,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

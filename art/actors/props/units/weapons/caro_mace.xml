@@ -2,19 +2,16 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant>
+    <variant name="Caro Mace">
+      <mesh>props/weap_caro_mace.dae</mesh>
       <textures>
         <texture file="props/prop_weap.dds" name="baseTex"/>
-				<texture file="props/prop_weap_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="props/prop_weap_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <group>
-		<variant name="Caro Mace">
-			<mesh>props/weap_caro_mace.dae</mesh>
-		</variant>
-	</group>
-  <material>basic_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>
 
 

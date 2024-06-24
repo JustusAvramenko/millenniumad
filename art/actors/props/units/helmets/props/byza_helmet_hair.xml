@@ -2,16 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Helmet_A">
+    <variant frequency="1" name="Helmet Plume">
       <mesh>props/helmet/props/byza_helmet_hair.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="Standard">
       <textures>
         <texture file="props/helmet/byza_plume_player.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
- <material>player_trans.xml</material>
+ <material>player_trans_norm_spec.xml</material>
 </actor>

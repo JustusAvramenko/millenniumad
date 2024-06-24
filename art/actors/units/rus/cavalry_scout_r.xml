@@ -8,13 +8,17 @@
         <prop actor="props/units/heads/new/head_celt.xml" attachpoint="head"/>
        <prop actor="props/units/weapons/spear_rus.xml" attachpoint="weapon_R"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="rus_basic_01">
-       <textures>
-      <texture file="skeletal/rus/rus_ijv_b_01.png" name="baseTex"/>
-       </textures>
+      <textures>
+        <texture file="skeletal/rus/rus_ijv_b_01.png" name="baseTex"/>
+      </textures>
     </variant>
   </group>
  <group>
@@ -28,5 +32,5 @@
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

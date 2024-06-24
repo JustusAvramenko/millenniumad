@@ -7,8 +7,13 @@
       <props>
         <prop actor="props/units/helmets/umay_coif_swordsman_shield_relax_e.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_pers_b.xml" attachpoint="head"/>
-         <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/dagger.xml" attachpoint="weapon_R"/>
       </props>
+      <textures>
+        <texture file="null_orange.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -84,5 +89,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

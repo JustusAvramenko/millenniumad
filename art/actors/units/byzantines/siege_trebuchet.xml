@@ -8,9 +8,6 @@
         <animation file="mechanical/traction_trebuchet_attack.dae" event="0.11" load="0.85" name="attack_ranged" speed="80"/>
       </animations>
       <mesh>structural/byza_trebuchet.dae</mesh>
-      <textures>
-        <texture file="structural/hele_siege.dds" name="baseTex"/>
-      </textures>
       <props>
         <prop actor="props/units/weapons/rock.xml" attachpoint="loaded-projectile"/>
         <prop actor="props/units/weapons/rock.xml" attachpoint="projectile"/>
@@ -21,6 +18,12 @@
         <prop actor="units/byzantines/trebuchet_operator_c.xml" attachpoint="engineer_2"/>
         <prop actor="units/byzantines/trebuchet_operator_c.xml" attachpoint="engineer_1"/>
       </props>
+      <textures>
+        <texture file="structural/hele_siege.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
+  <material>basic_trans_norm_spec.xml</material>
 </actor>

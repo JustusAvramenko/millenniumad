@@ -9,6 +9,11 @@
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
       </props>
+      <textures>
+        <texture file="null_orange.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="Helmet-coif">
       <mesh>skeletal/new/m_armor_tunic_long.dae</mesh>
@@ -18,6 +23,11 @@
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/bow_recurve.xml" attachpoint="weapon_bow"/>
       </props>
+      <textures>
+        <texture file="null_orange.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -77,5 +87,5 @@
     <variant file="biped/rider/camelry/attack_slaughter.xml"/>
     <variant file="biped/rider/camelry/gather_meat.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

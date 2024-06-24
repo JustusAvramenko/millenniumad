@@ -4,13 +4,10 @@
   <group>
     <variant frequency="50" name="Helmet_A">
       <mesh>props/helmet/caro_coif.dae</mesh>
-    </variant>
-  </group>
-  <group>
-    <variant frequency="1" name="coif-scales-dark">
       <textures>
         <texture file="props/helmet/coif_scales_dark.png" name="baseTex"/>
         <texture file="props/helmet/coif_scales_spec.png" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

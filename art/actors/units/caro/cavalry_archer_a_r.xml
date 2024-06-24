@@ -12,6 +12,10 @@
         <prop actor="props/temp/quiver.xml" attachpoint="back"/>
         <prop actor="props/units/weapons/norse_sword_sheath.xml" attachpoint="sheath_L"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -43,5 +47,5 @@
     <variant file="biped/rider/carry_meat.xml"/>
     <variant file="biped/rider/death_ranged.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

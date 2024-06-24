@@ -5,12 +5,12 @@
     <variant name="market">
       <mesh>structural/byza_market_b.dae</mesh>
       <textures>
-				<texture file="structural/byzantine_struct_b.png" name="baseTex"/>
-				<texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
+        <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/byzantine_struct_b_spec.png" name="specTex"/>
         <texture file="structural/ao/byza_market.png" name="aoTex"/>
-			</textures>
+      </textures>
     </variant>
   </group>
-<material>basic_trans_ao_parallax_spec.xml</material>
+  <material>no_trans_ao_parallax_spec.xml</material>
 </actor>

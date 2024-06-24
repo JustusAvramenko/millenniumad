@@ -9,7 +9,7 @@
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
         <texture file="structural/umay/umay_struct_02_spec.png" name="specTex"/>
        <!-- <texture file="structural/ao/uma_blacksmith_alt.png" name="aoTex"/> -->
-			</textures>
+      </textures>
       <props>
         <prop actor="particle/flame.xml" attachpoint="fire"/>
         <prop actor="particle/smoke_blacksmith.xml" attachpoint="smoke"/>
@@ -32,5 +32,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

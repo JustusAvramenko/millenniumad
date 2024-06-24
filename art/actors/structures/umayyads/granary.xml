@@ -7,25 +7,27 @@
       <textures>
         <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
         <texture file="structural/ao/uma_granary.png" name="aoTex"/>
       </textures>  
       <props>
         <prop actor="props/structures/umay/granary_props.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
       </props>  
- </variant>
- <variant frequency="50" name="granary_b">
+    </variant>
+    <variant frequency="50" name="granary_b">
       <mesh>structural/umay_granary.dae</mesh>
       <textures>
         <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
         <texture file="structural/ao/uma_granary.png" name="aoTex"/>
       </textures>  
       <props>
         <prop actor="props/structures/umay/granary_props_b.xml" attachpoint="root"/>
          <prop actor="props/structures/decals/iber_corral_mud.xml" attachpoint="root"/>
       </props>  
- </variant>
+    </variant>
   </group>
   <group>
     <variant frequency="1" name="alive"/>
@@ -39,5 +41,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_ao_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

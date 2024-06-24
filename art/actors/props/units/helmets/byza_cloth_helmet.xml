@@ -2,19 +2,17 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" name="Helmet_A">
-      <mesh>props/helmet/byza_cloth_helmet.dae</mesh>
-    </variant>
-  </group>
-  <group>
     <variant frequency="1" name="Standard">
+      <mesh>props/helmet/byza_cloth_helmet.dae</mesh>
       <props>
         <prop actor="props/units/helmets/props/byza_archer_helmet_feathers.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="props/helmet/byzantine_cloth_helmet.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

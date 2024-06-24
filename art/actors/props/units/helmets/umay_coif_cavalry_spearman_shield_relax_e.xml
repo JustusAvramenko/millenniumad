@@ -4,9 +4,17 @@
   <group>
     <variant frequency="3" name="Coif closed">
       <mesh>props/helmet/byza_coif_full.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
     <variant frequency="1" name="Coif open face short">
       <mesh>props/helmet/byza_coif_open_face_short.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -52,5 +60,5 @@
     <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

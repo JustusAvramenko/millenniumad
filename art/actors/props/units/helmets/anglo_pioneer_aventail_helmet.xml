@@ -7,15 +7,15 @@
     </variant>
   </group>
 <group>
-	<variant frequency="1" name="Standard">
+  <variant frequency="1" name="Standard">
       <textures>
         <texture file="props/helmet/anglo_pioneer_helmet.png" name="baseTex"/>
         <texture file="props/helmet/anglo_helmets_spec.png" name="specTex"/>
       </textures>
-		<props>
-			<prop actor="props/units/helmets/anglo_aventail.xml" attachpoint="root"/>
-		</props>
-	</variant>
+    <props>
+      <prop actor="props/units/helmets/anglo_aventail.xml" attachpoint="root"/>
+    </props>
+  </variant>
 </group>
- <material>player_trans_spec.xml</material>
+ <material>player_trans_norm_spec.xml</material>
 </actor>

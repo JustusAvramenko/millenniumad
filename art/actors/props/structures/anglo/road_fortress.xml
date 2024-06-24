@@ -5,7 +5,7 @@
       <decal angle="0" depth="4" offsetx="0" offsetz="0" width="10"/>
       <textures>
         <texture file="props/decal_struct_sand_small.png" name="baseTex"/>
-		<texture file="props/decal_struct_sand_small_norm.png" name="normTex"/>
+    <texture file="props/decal_struct_sand_small_norm.png" name="normTex"/>
       </textures>
     </variant>
   </group>

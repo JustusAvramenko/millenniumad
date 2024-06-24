@@ -7,12 +7,12 @@
     </variant>
   </group>
 <group>
-	<variant frequency="1" name="Standard">
+  <variant frequency="1" name="Standard">
       <textures>
         <texture file="props/helmet/anglo_copper_gate_helmet.png" name="baseTex"/>
         <texture file="props/helmet/anglo_helmets_spec.png" name="specTex"/>
       </textures>
-	</variant>
+  </variant>
 </group>
- <material>player_trans_spec.xml</material>
+ <material>player_trans_norm_spec.xml</material>
 </actor>

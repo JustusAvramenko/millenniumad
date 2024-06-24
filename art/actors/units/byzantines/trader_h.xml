@@ -8,6 +8,10 @@
         <prop actor="props/horse/trader_blanket.xml" attachpoint="root"/>
         <prop actor="props/horse/chest_colorband_trader.xml" attachpoint="root"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -28,5 +32,5 @@
     <variant file="quadraped/base_horse_death.xml"/>
     <variant file="quadraped/base_horse_run.xml"/>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>

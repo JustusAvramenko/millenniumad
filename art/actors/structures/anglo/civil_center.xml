@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
-	<castshadow/>
-	<group>
-		<variant frequency="25" name="Anglo House A">
-			<mesh>structural/anglo_civil_center.dae</mesh>
-			<textures>
-				<texture file="structural/anglo_struct.png" name="baseTex"/>
-				<texture file="structural/anglo_struct_norm.png" name="normTex"/>
-				<texture file="structural/anglo_struct_spec.png" name="specTex"/>
-				<texture file="structural/ao/anglo_civil_center_ao.png" name="aoTex"/>
-			</textures>
-			<props>
-				<prop actor="props/structures/decals/dirt_7x5.xml" attachpoint="root"/>
-				<prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield"/>
-				<prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
-				<prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy"/>
-				<prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy2"/>
-			</props>
-		</variant>
-	</group>
-  	<group>
-  		<variant frequency="100" name="Idle"/>
-   		<variant name="death">
- 			 <props>
-    			 <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
-    			 <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
-   				 <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
-   				 <prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
-  			</props>
-   		</variant>
-  	</group>
- 	<material>player_trans_ao_parallax_spec.xml</material>
+  <castshadow/>
+  <group>
+    <variant frequency="25" name="Anglo House A">
+      <mesh>structural/anglo_civil_center.dae</mesh>
+      <textures>
+        <texture file="structural/anglo_struct.png" name="baseTex"/>
+        <texture file="structural/anglo_struct_norm.png" name="normTex"/>
+        <texture file="structural/anglo_struct_spec.png" name="specTex"/>
+        <texture file="structural/ao/anglo_civil_center_ao.png" name="aoTex"/>
+      </textures>
+      <props>
+        <prop actor="props/structures/decals/dirt_7x5.xml" attachpoint="root"/>
+        <prop actor="props/units/shields/anglo_spearman_e.xml" attachpoint="shield"/>
+        <prop actor="props/units/weapons/arrow_front.xml" attachpoint="projectile"/>
+        <prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy"/>
+        <prop actor="props/structures/anglo/anglo_eyecandy2.xml" attachpoint="eyecandy2"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="100" name="Idle"/>
+     <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="root"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="root"/>
+        <prop actor="props/structures/decals/dirt_6x4.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

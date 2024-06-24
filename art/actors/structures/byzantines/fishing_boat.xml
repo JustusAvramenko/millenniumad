@@ -7,6 +7,8 @@
       <mesh>structural/byza_fishing_ship_a.dae</mesh>
       <textures>
         <texture file="structural/rome_qui.dds" name="baseTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="default_norm.png" name="normTex"/>
       </textures>
       <props>
         <prop actor="props/structures/byzantines/fishing_ship_props.xml" attachpoint="root"/>
@@ -45,5 +47,5 @@
       </props>
     </variant>
   </group>
-  <material>player_trans.xml</material>
+  <material>player_trans_norm_spec.xml</material>
 </actor>

@@ -5,14 +5,15 @@
     <variant name="Storehouse">
       <mesh>structural/umay_storehouse.dae</mesh>
       <textures>
-				<texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
+        <texture file="structural/umay/umay_struct_02.png" name="baseTex"/>
         <texture file="structural/umay/umay_struct_02_norm.png" name="normTex"/>
-       <texture file="structural/ao/umay_storehouse_ao.png" name="aoTex"/> 
-			</textures>
+        <texture file="null_black.dds" name="specTex"/>
+        <texture file="structural/ao/umay_storehouse_ao.png" name="aoTex"/>
+      </textures>
       <props>
         <prop actor="props/structures/umay/storehouse_props.xml" attachpoint="root"/>
         <prop actor="props/structures/decals/dirt_3x3.xml" attachpoint="root"/>
-         <prop actor="props/structures/norse/barrel.xml" attachpoint="thing"/>
+        <prop actor="props/structures/norse/barrel.xml" attachpoint="thing"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="thing_02"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="thing_03"/>
         <prop actor="props/structures/norse/barrel.xml" attachpoint="thing_04"/>
@@ -32,5 +33,5 @@
       </props>
     </variant>
   </group>
-<material>player_trans_parallax.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

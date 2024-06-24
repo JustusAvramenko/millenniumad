@@ -9,8 +9,9 @@
         <prop actor="particle/smoke_curved.xml" attachpoint="smoke"/>
       </props>
       <textures>
-       <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
 <!--         <texture file="structural/ao/caro_house_a_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
@@ -21,7 +22,8 @@
       </props>
       <textures>
         <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
 <!--         <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
@@ -31,8 +33,9 @@
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
       <textures>
-       <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
    <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
@@ -42,19 +45,21 @@
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
       <textures>
-       <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02.png" name="baseTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
    <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
-     <variant frequency="16" name="Carolingian House E">
+    <variant frequency="16" name="Carolingian House E">
       <mesh>structural/caro_house_e.dae</mesh>
       <props>
         <prop actor="props/structures/decals/dirt_4x2.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
      <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
@@ -68,10 +73,10 @@
       </props>
       <textures>
         <texture file="structural/caro_struct_02.png" name="baseTex"/>
-				<texture file="structural/caro_struct_02_norm.png" name="normTex"/>
+        <texture file="structural/caro_struct_02_norm.png" name="normTex"/>
      <!--     <texture file="structural/ao/caro_house_b_ao.png" name="aoTex"/> -->
       </textures>
     </variant>
   </group>
-  <material>player_trans_parallax.xml</material>
+  <material>player_trans_parallax_spec.xml</material>
 </actor>

@@ -40,5 +40,5 @@
       <color>205 205 205</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>

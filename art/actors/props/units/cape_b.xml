@@ -39,5 +39,5 @@
       <color>203 173 133</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>

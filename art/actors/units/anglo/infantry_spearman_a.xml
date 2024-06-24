@@ -9,6 +9,10 @@
         <prop actor="props/units/shields/anglo_spearman_a.xml" attachpoint="shield"/>
         <prop actor="props/units/weapons/norse_spear.xml" attachpoint="weapon_R"/>
       </props>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>
@@ -86,5 +90,5 @@
       <color>165 206 228</color>
     </variant>
   </group>
-  <material>objectcolor.xml</material>
+  <material>objectcolor_norm_spec.xml</material>
 </actor>
