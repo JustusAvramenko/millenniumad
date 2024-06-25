@@ -5,8 +5,10 @@
     <variant frequency="1" name="Base">
     <mesh>props/new/capes/cape_long_coif.dae</mesh>
       <textures>
-      <texture file="props/cape_hd.dds" name="baseTex"/>
-    </textures>
+        <texture file="props/cape_hd.dds" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>

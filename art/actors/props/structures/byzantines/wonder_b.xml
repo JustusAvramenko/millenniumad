@@ -6,10 +6,11 @@
       <mesh>structural/byza_wonder_b.dae</mesh>
       <textures>
         <texture file="structural/byzantine_struct_b.png" name="baseTex"/>
-        <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
         <texture file="structural/ao/byza_wonder_b.png" name="aoTex"/>
+        <texture file="structural/byzantine_struct_b_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
       </textures>
     </variant>
   </group>
-<material>player_trans_ao_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

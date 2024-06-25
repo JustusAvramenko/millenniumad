@@ -2,12 +2,8 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant name="barrel">
-      <mesh>props/rus_market_prop_sellers.dae</mesh>
-    </variant>
-  </group>
-  <group>
     <variant>
+      <mesh>props/rus_market_prop_sellers.dae</mesh>
       <textures>
         <texture file="structural/Sele_struct_alt.png" name="baseTex"/>
         <texture file="structural/Sele_struct_2_norm.png" name="normTex"/>
@@ -16,5 +12,5 @@
       </textures>
     </variant>
   </group>
-   <material>player_trans_parallax_spec.xml</material>
+  <material>player_trans_ao_parallax_spec.xml</material>
 </actor>

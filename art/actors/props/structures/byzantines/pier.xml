@@ -4,14 +4,15 @@
   <group>
     <variant name="Pier">
       <mesh>props/byza_pier.dae</mesh>
-      <textures>
-        <texture file="structural/maur_struct_b.png" name="baseTex"/>
-        <texture file="structural/maur_struct_b_norm.png" name="normTex"/>
-        <texture file="structural/ao/byza_dock.png" name="aoTex"/>
-      </textures>
       <props>
         <prop actor="props/special/eyecandy/barrel_a.xml" attachpoint="barrel"/>
       </props>
+      <textures>
+        <texture file="structural/maur_struct_b.png" name="baseTex"/>
+        <texture file="structural/ao/byza_dock.png" name="aoTex"/>
+        <texture file="structural/maur_struct_b_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <material>player_trans_ao_parallax_spec.xml</material>

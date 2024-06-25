@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <group>
-    <variant name="barrel">
-      <mesh>props/umay_props_box.dae</mesh>
-    </variant>
-  </group>
-  <group>
     <variant>
+      <mesh>props/umay_props_box.dae</mesh>
       <textures>
         <texture file="structural/rome_struct_2.png" name="baseTex"/>
         <texture file="structural/rome_struct_2_norm.png" name="normTex"/>
@@ -14,5 +10,5 @@
       </textures>
     </variant>
   </group>
-   <material>player_trans_parallax_spec.xml</material>
+  <material>no_trans_norm_spec.xml</material>
 </actor>

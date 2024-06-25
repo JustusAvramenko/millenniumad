@@ -4,11 +4,15 @@
   <float/>
   <group>
     <variant name="Byza sail">
+      <mesh>props/byza_sail.dae</mesh>
       <animations>
         <animation file="other/byza_sail_idle.dae" name="Idle" speed="50"/>
         <animation file="other/byza_sail_move.dae" name="Walk" speed="5"/>
       </animations>
-      <mesh>props/byza_sail.dae</mesh>
+      <textures>
+        <texture file="default_norm.png" name="normTex"/>
+        <texture file="null_black.dds" name="specTex"/>
+      </textures>
     </variant>
   </group>
   <group>

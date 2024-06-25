@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <actor version="1">
   <group>
-    <variant name="table">
-      <mesh>props/deco_fish_stand.dae</mesh>
-    </variant>
-  </group>
-  <group>
     <variant>
+      <mesh>props/deco_fish_stand.dae</mesh>
       <textures>
         <texture file="structural/norse_struct.png" name="baseTex"/>
         <texture file="structural/norse_struct_norm.png" name="normTex"/>

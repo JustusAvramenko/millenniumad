@@ -2,17 +2,14 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="50" name="Helmet_A">
+    <variant frequency="1" name="Standard">
       <mesh>props/helmet/anglo_aventail.dae</mesh>
-    </variant>
-  </group>
-<group>
-  <variant frequency="1" name="Standard">
       <textures>
         <texture file="props/helmet/anglo_copper_gate_helmet.png" name="baseTex"/>
+        <texture file="default_norm.png" name="normTex"/>
         <texture file="props/helmet/anglo_helmets_spec.png" name="specTex"/>
       </textures>
-  </variant>
-</group>
- <material>player_trans_norm_spec.xml</material>
+    </variant>
+  </group>
+  <material>player_trans_norm_spec.xml</material>
 </actor>
