@@ -23,9 +23,11 @@
     <Civ>norse</Civ>
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
-    <Icon>units/norse_berserker.png</Icon>
-    <RequiredTechnology>unlock_champion_units_modded</RequiredTechnology>
     <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
+    <Icon>units/norse_berserker.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">unlock_champion_units_modded</Techs>
+    </Requirements>
   </Identity>
   <Resistance>
     <Entity>

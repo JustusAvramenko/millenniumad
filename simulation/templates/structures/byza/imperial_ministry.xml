@@ -47,7 +47,9 @@
     CivSpecific
   </Classes>
     <History>The Byzantine Empire had a complex system of aristocracy and bureaucracy, which was inherited from the Roman Empire. Beneath the emperor, a multitude of officials and court functionaries operated the complex administrative machinery that was necessary to run the empire. In addition to those officials, a large number of honorific titles existed, which the emperor awarded to his subjects or to friendly foreign rulers.</History>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
     <Icon>structures/palace.png</Icon>
     <Tooltip>Build to unlock a powerful suite of Administrative technologies.</Tooltip>
   </Identity>
@@ -64,14 +66,13 @@
   <Population>
     <Bonus>10</Bonus>
   </Population>
-  <ProductionQueue>
-     <Entities datatype="tokens">
-    </Entities>
+  <ProductionQueue/>
+  <Researcher>
     <Technologies datatype="tokens">
-  byza/pair_reform
-  byza/upgrade_rank_advanced
+      byza/pair_reform
+      byza/upgrade_rank_advanced
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_ministry_orient.xml</select>

@@ -14,9 +14,11 @@
     <Civ>rus</Civ>
     <GenericName>Варяжская стража</GenericName>
     <SpecificName>Varangian Guard</SpecificName>
-    <Icon>units/norse_huskarl.png</Icon>
-    <RequiredTechnology>unlock_mercenaries</RequiredTechnology>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
+    <Icon>units/norse_huskarl.png</Icon>
+    <Requirements>
+      <Techs datatype="tokens">-phase_city unlock_mercenaries</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/rus/champion_huscarl.xml</Actor>

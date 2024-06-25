@@ -20,9 +20,11 @@
     <SelectionGroupName>units/rus/infantry_swordsman_b</SelectionGroupName>
     <GenericName>Swordsman</GenericName>
     <SpecificName>Bоин</SpecificName>
-    <RequiredTechnology>phase_town</RequiredTechnology>
     <Icon>units/rus/rus_swordsman.png</Icon>
     <Tooltip>Counters: 1.1x vs. Structures.</Tooltip>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/norse/infantry_swordsman_a</Entity>

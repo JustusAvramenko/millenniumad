@@ -7,12 +7,16 @@
 		"stone": 0,
 		"metal": 200
 	},
-	"requirements": { "tech": "byza/economy_reform" },
-	"requirementsTooltip": "Unlocked with Economic Reforms (Bouleterion).",
+	"requirements": {
+		"tech": "byza/economy_reform"
+	},
+	"requirementsTooltip": "Unlocked with Economic Reforms at the Bouleterion.",
 	"icon": "friendship.png",
 	"researchTime": 40,
 	"tooltip": "Merchant Ships +25% trade profit per trip.",
-	"modifications": [{"value": "Trader/GainMultiplier", "multiply": 1.25}],
-	"affects": ["MerchantShip"],
+	"modifications": [
+		{ "value": "Trader/GainMultiplier", "multiply": 1.25 }
+	],
+	"affects": [ "MerchantShip" ],
 	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
 }

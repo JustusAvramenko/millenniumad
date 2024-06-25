@@ -19,7 +19,7 @@
   </GarrisonHolder>
   <Health>
     <Max>2000</Max>
-    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_6x6</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <GenericName>Arsenal</GenericName>
@@ -27,7 +27,9 @@
     <Tooltip>Train Champion Infantry Crossbowmen, construct Siege Engines, and research Siege Engine technologies.</Tooltip>
     <VisibleClasses datatype="tokens">City Arsenal</VisibleClasses>
     <Icon>structures/siege_workshop.png</Icon>
-    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_city</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <wood>60</wood>
@@ -61,6 +63,7 @@
       units/{civ}/siege_scorpio_packed
       units/{civ}/siege_polybolos_packed
       units/{civ}/siege_oxybeles_packed
+      units/{civ}/siege_onager_packed
       units/{civ}/siege_lithobolos_packed
       units/{civ}/siege_ballista_packed
       units/{civ}/siege_trebuchet_packed

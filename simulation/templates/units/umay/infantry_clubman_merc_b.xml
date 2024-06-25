@@ -13,7 +13,9 @@
     <GenericName>Arab Tribesman</GenericName>
     <VisibleClasses datatype="tokens">-Swordsman Clubman</VisibleClasses>
     <Icon>units/umay_infantry_clubman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/umay/infantry_clubman_merc_a</Entity>

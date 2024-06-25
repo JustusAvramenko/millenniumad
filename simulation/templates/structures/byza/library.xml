@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_special_library">
-  <Cost>
-    <Resources>
-      <stone>800</stone>
-      <wood>1200</wood>
-       <metal>400</metal>
-    </Resources>
-  </Cost>
   <Footprint>
     <Square width="29.0" depth="29.0"/>
     <Height>9.0</Height>
@@ -18,7 +11,7 @@
     <Civ>byza</Civ>
     <Classes datatype="tokens">CivSpecific</Classes>
     <SpecificName>Library</SpecificName>
-     <Icon>structures/portrait_university.png</Icon>
+    <Icon>structures/portrait_university.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="27.0" depth="27.0"/>

@@ -8,7 +8,9 @@
     <GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
     <Icon>units/norse_erik_the_red.png</Icon>
-    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/norse/erik_the_red.xml</Actor>

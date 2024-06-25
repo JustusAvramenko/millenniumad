@@ -25,7 +25,6 @@
     <GenericName>School</GenericName>
     <SelectionGroupName>template_structure_special_school</SelectionGroupName>
     <VisibleClasses datatype="tokens">School</VisibleClasses>
-    <RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>structures/library_scroll.png</Icon>
   </Identity>
   <Loot>

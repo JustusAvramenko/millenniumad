@@ -19,6 +19,14 @@
     <Square width="33.0" depth="29.0"/>
     <Height>8.0</Height>
   </Footprint>
+   <GarrisonHolder>
+    <Max>5</Max>
+    <BuffHeal>0</BuffHeal>
+    <EjectHealth>0.1</EjectHealth>
+    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
+    <List datatype="tokens">Infantry</List>
+    <LoadingRange>1</LoadingRange>
+  </GarrisonHolder>
   <Health>
     <Max>1500</Max>
     <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
@@ -30,7 +38,9 @@
     <Classes datatype="tokens">Barter</Classes>
     <VisibleClasses datatype="tokens">Trade Town Market</VisibleClasses>
     <Icon>structures/military_market.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Loot>
     <wood>60</wood>
@@ -61,14 +71,6 @@
     <Types>food wood stone metal</Types>
     <Sharable>true</Sharable>
   </ResourceDropsite>
-   <GarrisonHolder>
-    <Max>5</Max>
-    <BuffHeal>0</BuffHeal>
-    <EjectHealth>0.1</EjectHealth>
-    <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Infantry</List>
-    <LoadingRange>1</LoadingRange>
-  </GarrisonHolder>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_market.xml</select>

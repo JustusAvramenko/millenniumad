@@ -7,7 +7,7 @@
   <Identity>
     <Civ>byza</Civ>
     <SpecificName>Teíkhisma</SpecificName>
-    <Tooltip>Build siege engines. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
+    <Tooltip>Train Champions. Garrison up to 20 soldiers inside for stout defense.</Tooltip>
   </Identity>
   <Obstruction>
     <Static width="31.0" depth="31.5"/>

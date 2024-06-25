@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_temple">
+  <Footprint>
+    <Square width="24.0" depth="24.0"/>
+    <Height>20.0</Height>
+  </Footprint>
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_stone_5x5</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>byza</Civ>
+    <Classes datatype="tokens">CivSpecific</Classes>
+    <GenericName>Monastery</GenericName>
+    <SpecificName>Monastíri</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Static width="22.0" depth="22.0"/>
+  </Obstruction>
+  <Researcher>
+    <Technologies datatype="tokens">
+      -health_regen_units
+      byza/holy_protection
+    </Technologies>
+  </Researcher>
+  <VisualActor>
+    <Actor>structures/byzantines/temple.xml</Actor>
+    <FoundationActor>structures/fndn_4x4.xml</FoundationActor>
+  </VisualActor>
+</Entity>

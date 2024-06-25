@@ -3,7 +3,7 @@
    <Auras datatype="tokens">
     units/inspiration_war
   </Auras>
-<Attack>
+  <Attack>
     <Melee>
       <AttackName context="Name of an attack using a double-edged sword.">Sword</AttackName>
       <Damage>
@@ -35,7 +35,9 @@
     <SpecificName></SpecificName>
     <SelectionGroupName>units/byza/champion_infantry_swordsman</SelectionGroupName>
     <Icon>technologies/spy_trader.png</Icon>
-    <RequiredTechnology>umay/jihad</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">umay/jihad</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/umayyads/assassin.xml</Actor>

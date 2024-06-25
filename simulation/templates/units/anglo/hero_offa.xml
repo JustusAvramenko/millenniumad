@@ -9,7 +9,9 @@
     <GenericName>Offa of Mercia</GenericName>
     <SpecificName>Offa</SpecificName>
     <Icon>units/anglo_hero_offa.png</Icon>
-    <RequiredTechnology>germanic_thingstead</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">germanic_thingstead</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/anglo/hero_infantry_swordsman_offa.xml</Actor>

@@ -4,28 +4,6 @@
     <Civ>byza</Civ>
     <SpecificName>Stratēgeîon</SpecificName>
   </Identity>
-  <Trainer>
-    <Entities datatype="tokens">
-      units/{civ}/siege_ballista_packed
-      units/{civ}/siege_scorpio_packed
-      units/{civ}/siege_oxybeles_packed
-      units/{civ}/siege_lithobolos_packed
-      units/{civ}/siege_polybolos_packed
-      units/{civ}/siege_ram
-      units/{civ}/siege_tower
-      units/{civ}/siege_trebuchet_packed
-      units/{civ}/siege_traction_trebuchet_packed
-    </Entities>
-  </Trainer>
-  <Researcher>
-    <Technologies datatype="tokens">
-      siege_attack
-      siege_cost_time
-      siege_health
-      siege_pack_unpack
-      siege_bolt_accuracy
-    </Technologies>
-  </Researcher>
   <VisualActor>
     <Actor>structures/byzantines/armory.xml</Actor>
   </VisualActor>

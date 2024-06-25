@@ -14,14 +14,18 @@
     <GenericName>Hunter</GenericName>
     <SpecificName>Okhotnik</SpecificName>
     <Icon>units/rus/rus_hunter.png</Icon>
-    <RequiredTechnology>unlock_hunter</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">unlock_hunter</Techs>
+    </Requirements>
   </Identity>
  <Promotion disable=""/>
   <Upgrade>
      <SwitchToSword>
       <Entity>units/rus/infantry_axeman</Entity>
-      <Tooltip>Switch weapon sword (melee).</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Tooltip>Switch weapon to Axe (melee).</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
       <Cost>
         <metal>5</metal>
       </Cost>

@@ -30,8 +30,10 @@
   <Upgrade>
      <SwitchToSword>
       <Entity>units/rus/infantry_javelineer_b</Entity>
-      <Tooltip>Switch back to javelinist</Tooltip>
-      <RequiredTechnology>phase_town</RequiredTechnology>
+      <Tooltip>Switch back to Javelin</Tooltip>
+      <Requirements>
+        <Techs datatype="tokens">phase_town</Techs>
+      </Requirements>
       <Cost>
         <food>10</food>
       </Cost>

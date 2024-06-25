@@ -19,7 +19,7 @@
     <Civ>caro</Civ>
     <GenericName>Champion maceman</GenericName>
     <SpecificName>Maceman</SpecificName>
-	<SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
+    <SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
     <Icon>units/caro_maceman.png</Icon>
   </Identity>
   <Loot>

@@ -5,7 +5,9 @@
     <GenericName>Infantry Swordsman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/umay_infantry_swordsman.png</Icon>
-	<RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/umay/infantry_swordsman_a</Entity>

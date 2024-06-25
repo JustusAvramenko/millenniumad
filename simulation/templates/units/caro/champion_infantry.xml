@@ -4,7 +4,7 @@
     <Civ>caro</Civ>
     <GenericName>Royal Companion Infantry</GenericName>
     <SpecificName>Schola Palatina</SpecificName>
-	<SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
+    <SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
     <Icon>units/caro_champion_infantry.png</Icon>
   </Identity>
   <VisualActor>

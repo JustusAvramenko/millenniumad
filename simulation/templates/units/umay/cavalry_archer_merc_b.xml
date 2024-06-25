@@ -7,7 +7,9 @@
     <GenericName>Bedouin Camel Archer</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/pers_cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/umay/cavalry_archer_merc_a</Entity>

@@ -3,7 +3,9 @@
   <Identity>
     <SelectionGroupName>units/byza/infantry_swordsman_b</SelectionGroupName>
     <Icon>units/byza_infantry_swordsman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Requirements>
+      <Techs datatype="tokens">phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/byza/infantry_swordsman_a</Entity>

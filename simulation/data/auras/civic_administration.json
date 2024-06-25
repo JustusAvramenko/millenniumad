@@ -2,7 +2,6 @@
 	"type": "range",
 	"radius": 50,
 	"affects": ["Structure", "Human"],
-	"requiredTechnology": "umay/rule_law",
 	"modifications": [
 	  {"value": "Builder/Rate", "multiply": 1.1},
 	  {"value": "ResourceGatherer/BaseSpeed", "multiply": 1.1}
