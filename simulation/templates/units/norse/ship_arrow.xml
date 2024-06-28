@@ -7,7 +7,7 @@
     <Civ>norse</Civ>
     <SpecificName>Snekkja</SpecificName>
     <Tooltip>Light Warship. Bonuses loot in the area.</Tooltip>
-    <Icon>units/norse_snekkja.png</Icon>
+    <Icon>units/norse/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/snekkja.xml</Actor>

@@ -31,7 +31,7 @@
     <Classes datatype="tokens">Organic Human</Classes>
     <GenericName>General</GenericName>
     <SpecificName>Strategos</SpecificName>
-    <Icon>units/byza_strategos_alt.png</Icon>
+    <Icon>units/byza/strategos_alt.png</Icon>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
 	<Tooltip>
 Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue.</Tooltip>

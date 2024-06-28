@@ -4,8 +4,8 @@
     <Civ>umay</Civ>
     <GenericName>Royal Companion</GenericName>
     <SpecificName></SpecificName>
-    <SelectionGroupName>units/byza/champion_infantry_swordsman</SelectionGroupName>
-    <Icon>units/umay_champion_infantry_swordsman.png</Icon>
+    <SelectionGroupName>units/umay/champion_infantry_swordsman</SelectionGroupName>
+    <Icon>units/umay/champion_infantry_swordsman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/umayyads/infantry_swordsman_c.xml</Actor>

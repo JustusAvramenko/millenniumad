@@ -12,7 +12,7 @@
     <SelectionGroupName>units/umay/infantry_clubman_merc_b</SelectionGroupName>
     <GenericName>Arab Tribesman</GenericName>
     <VisibleClasses datatype="tokens">-Swordsman Clubman</VisibleClasses>
-    <Icon>units/umay_infantry_clubman.png</Icon>
+    <Icon>units/umay/infantry_clubman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

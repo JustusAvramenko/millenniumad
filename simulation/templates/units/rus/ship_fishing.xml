@@ -3,7 +3,7 @@
   <Identity>
     <Civ>rus</Civ>
     <SpecificName>Skúta</SpecificName>
-    <Icon>units/norse_fishing_ship.png</Icon>
+    <Icon>units/norse/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/norse/fishing_boat.xml</Actor>

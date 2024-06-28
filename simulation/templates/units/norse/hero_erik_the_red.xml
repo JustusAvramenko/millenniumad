@@ -7,7 +7,7 @@
     <Civ>norse</Civ>
     <GenericName>Erik the Red</GenericName>
     <SpecificName>Eiríkr hinn rauði</SpecificName>
-    <Icon>units/norse_erik_the_red.png</Icon>
+    <Icon>units/norse/hero_erik_the_red.png</Icon>
     <Requirements>
       <Techs datatype="tokens">germanic_thingstead</Techs>
     </Requirements>

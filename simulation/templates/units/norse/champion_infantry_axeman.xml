@@ -15,7 +15,7 @@
     <GenericName>Bodyguard</GenericName>
     <SpecificName>Huskárl</SpecificName>
     <SelectionGroupName>units/norse/champion_huscarl</SelectionGroupName>
-    <Icon>units/norse_huskarl.png</Icon>
+    <Icon>units/norse/champion_infantry_axeman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_units_modded</Techs>
     </Requirements>

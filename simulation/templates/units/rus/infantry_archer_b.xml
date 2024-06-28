@@ -9,7 +9,7 @@
     <SelectionGroupName>units/rus/infantry_archer_b</SelectionGroupName>
     <GenericName>Huntsman</GenericName>
     <SpecificName>Охотник</SpecificName>
-    <Icon>units/rus/inf_archer.png</Icon>
+    <Icon>units/rus/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/rus/infantry_archer_a</Entity>

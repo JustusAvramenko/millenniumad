@@ -21,7 +21,7 @@
     <GenericName>Byzantine Dromon</GenericName>
     <SpecificName>Heavy Dromōn</SpecificName>
     <Classes datatype="tokens">ByzaTrireme</Classes>
-    <Icon>units/byza_dromon.png</Icon>
+    <Icon>units/byza/ship_arrow.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/byzantines/dromon_warship.xml</Actor>

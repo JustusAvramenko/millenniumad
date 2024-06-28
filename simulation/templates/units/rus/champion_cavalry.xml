@@ -5,7 +5,7 @@
     <GenericName>Družina</GenericName>
     <SpecificName>Дружына</SpecificName>
     <SelectionGroupName>units/caro/champion_cavalry</SelectionGroupName>
-    <Icon>units/caro_champion_cavalry.png</Icon>
+    <Icon>units/caro/champion_cavalry.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/rus/cavalry_spearman_c_m.xml</Actor>

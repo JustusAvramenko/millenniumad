@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_warship_scout">
   <Identity>
     <Civ>byza</Civ>
-    <Icon>units/byza_bireme.png</Icon>
+    <Icon>units/byza/ship_scout.png</Icon>
     <GenericName>Byzantine Galley</GenericName>
     <SpecificName>Chelandion</SpecificName>
   </Identity>

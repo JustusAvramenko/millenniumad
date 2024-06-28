@@ -20,7 +20,7 @@
     <GenericName>Champion maceman</GenericName>
     <SpecificName>Maceman</SpecificName>
     <SelectionGroupName>units/caro/champion_infantry</SelectionGroupName>
-    <Icon>units/caro_maceman.png</Icon>
+    <Icon>units/caro/champion_maceman.png</Icon>
   </Identity>
   <Loot>
     <wood>5</wood>

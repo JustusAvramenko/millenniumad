@@ -34,7 +34,7 @@
     <Classes datatype="tokens">Organic Human</Classes>
     <GenericName>Government Minister</GenericName>
     <SpecificName>Árchōn</SpecificName>
-    <Icon>units/byza_minister_alt.png</Icon>
+    <Icon>units/byza/minister_alt.png</Icon>
     <VisibleClasses datatype="tokens">Minister</VisibleClasses>
 	<Tooltip>
 Use to boost the efficiency of nearby units and buildings. Garrison within a building to boost the efficiency of its production queue.</Tooltip>

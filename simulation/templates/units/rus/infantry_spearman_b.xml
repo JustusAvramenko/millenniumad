@@ -14,7 +14,7 @@
     <SelectionGroupName>units/rus/infantry_spearman_b</SelectionGroupName>
     <GenericName>Spearman</GenericName>
     <SpecificName>Kопейщик</SpecificName>
-    <Icon>units/rus/rus_spearman.png</Icon>
+    <Icon>units/rus/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/rus/infantry_spearman_a</Entity>

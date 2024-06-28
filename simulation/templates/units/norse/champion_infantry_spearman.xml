@@ -24,7 +24,7 @@
     <GenericName>Fanatic</GenericName>
     <SpecificName>Berserkr</SpecificName>
     <SelectionGroupName>units/norse/champion_berserker</SelectionGroupName>
-    <Icon>units/norse_berserker.png</Icon>
+    <Icon>units/norse/champion_infantry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">unlock_champion_units_modded</Techs>
     </Requirements>

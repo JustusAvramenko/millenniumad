@@ -20,7 +20,7 @@
   <Identity>
     <Civ>norse</Civ>
     <SpecificName>Karvi</SpecificName>
-    <Icon>units/norse_karvi.png</Icon>
+    <Icon>units/norse/ship_scout.png</Icon>
     <Classes datatype="tokens">Trader</Classes>
     <Tooltip>A Hybrid Trader/Warship</Tooltip>
   </Identity>

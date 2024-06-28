@@ -5,7 +5,7 @@
     <GenericName>Border Horseman</GenericName>
     <SelectionGroupName>units/anglo/cavalry_spearman_b</SelectionGroupName>
     <SpecificName>Rideheres</SpecificName>
-    <Icon>units/anglo_cavalry_spearman.png</Icon>
+    <Icon>units/anglo/cavalry_spearman.png</Icon>
     <Requirements>
       <Techs datatype="tokens">phase_town</Techs>
     </Requirements>

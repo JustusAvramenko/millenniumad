@@ -8,7 +8,7 @@
     <SelectionGroupName>units/norse/support_healer_b</SelectionGroupName>
     <SpecificName>Священник</SpecificName>
     <GenericName>Priest</GenericName>
-    <Icon>units/rus/rus_priest.png</Icon>
+    <Icon>units/rus/support_healer.png</Icon>
     <Rank>Basic</Rank>
   </Identity>
   <Promotion>
